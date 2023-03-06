@@ -1,6 +1,6 @@
 {
 	"name": "font-details",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"type": "module",
 	"main": "./dist/font-details.umd.cjs",
 	"module": "./dist/font-details.js",
@@ -11,6 +11,9 @@
 			"require": "./dist/font-details.umd.cjs"
 		}
 	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
