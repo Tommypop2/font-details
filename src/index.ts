@@ -1,8 +1,20 @@
+/** Given a font size, name, and string, measures the space that the string given takes up
+ *
+ * Usage:
+ * @example
+ * getFontDetails(10, "monospace", "abc")
+ * @returns {TextMetrics | undefined}
+ *
+ * Size can also be given as a string with units
+ * @example
+ * getFontDetails("10px", "monospace", "abc")
+ * @returns {TextMetrics | undefined}
+ */
 export function getFontDetails(
 	size: number | string,
 	font: string,
 	strToMeasure?: string
-) {
+): TextMetrics | undefined {
 	if (strToMeasure == undefined) {
 		strToMeasure = "a";
 	}
