@@ -1,6 +1,6 @@
 {
 	"name": "font-details",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"type": "module",
 	"main": "./dist/font-details.umd.cjs",
 	"module": "./dist/font-details.js",
