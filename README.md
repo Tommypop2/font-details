@@ -47,4 +47,9 @@ function customStringExample(): TextMetrics {
 }
 ```
 
-As this font is monospace, the width of "ab" is double the width of "a", where each glyph has the same width. This isn't the case for most fonts, where different letters have different widths
+As this font is monospace, the width of "ab" is double the width of "a", as each glyph has the same width. This isn't the case for most fonts, where different letters have different widths
+
+If you like this package, leave it a star on github:
+
+[![Tommypop2 - font-details](https://img.shields.io/static/v1?label=Tommypop2&message=font-details&color=blue&logo=github)](https://github.com/Tommypop2/font-details "Go to GitHub repo")
+[![stars - font-details](https://img.shields.io/github/stars/Tommypop2/font-details?style=social)](https://github.com/Tommypop2/font-details)
