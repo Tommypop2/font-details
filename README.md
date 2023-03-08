@@ -28,7 +28,7 @@ function main(): TextMetrics {
 ### Properties can just be directly returned
 
 ```ts
-function getWidthExample(): TextMetrics {
+function getWidthExample(): number {
  const details = getFontDetails(10, "monospace");
  //Gets the details of "10px monospace" with the character 'a'
  return details.width; // 5.498046875, in this case
@@ -40,7 +40,7 @@ function getWidthExample(): TextMetrics {
 The default string used for measuring text is simply "a"
 
 ```ts
-function customStringExample(): TextMetrics {
+function customStringExample(): number {
  const details = getFontDetails(10, "monospace", "ab");
  //Gets the details of "10px monospace" with the character 'a'
  return details.width; // 10.99609375, in this case
