@@ -1,10 +1,11 @@
 {
 	"name": "font-details",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"type": "module",
 	"main": "./dist/font-details.umd.cjs",
 	"module": "./dist/font-details.js",
 	"types": "./dist/index.d.ts",
+	"license": "MIT",
 	"exports": {
 		".": {
 			"import": "./dist/font-details.js",
